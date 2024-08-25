@@ -66,7 +66,7 @@ export const itineraryFlow = defineFlow(
   },
 
   async (tripDetails) => {
-    const imgDescription = '';
+    const imgDescription = 'A beautiful day in Paris, France. A view of the Eiffel Tower and the River Seine can be seen from a distance, surrounded by lush green trees and beautiful blue skies with wispy white clouds. The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. The tower is 324 meters (1,063 feet) tall, about the same height as an 81-story building, and the tallest structure in Paris. The tower has three levels for visitors, with restaurants on the first and second levels. The top level is a viewing platform providing panoramic views of Paris. The River Seine is a river in France, flowing through Paris. It is a popular tourist destination, with many boat tours available. A boat tour on the River Seine is a great way to see the city from a different perspective.';
     // TODO: 2. Replace the line above with this:
     // const imgDescription = await run('imgDescription', async () => {
     //   if (!tripDetails.imageUrls?.length) {

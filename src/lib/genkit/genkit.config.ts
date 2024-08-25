@@ -19,11 +19,15 @@ import { dotprompt } from '@genkit-ai/dotprompt';
 import { firebase } from '@genkit-ai/firebase';
 import { vertexAI } from '@genkit-ai/vertexai';
 
-// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyASLsJ7B9bO3TRR0zAnpQP_JfR8R_AxbXY",
+  authDomain: "practicing-gen-ai.firebaseapp.com",
+  projectId: "practicing-gen-ai",
+  storageBucket: "practicing-gen-ai.appspot.com",
+  messagingSenderId: "585534748742",
+  appId: "1:585534748742:web:601b859e7354bffdf3f247",
+  measurementId: "G-MW76L4882V"
 };
 
 export const getProjectId = () => {
